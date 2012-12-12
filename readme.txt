@@ -3,8 +3,8 @@ Contributors: iiRe Productions
 Donate link: http://iireproductions.com/web/website-development/wordpress-plugins/plugins-social-lite/
 Tags: Social Media, Icons, Facebook, Google, Pinterest, Twitter, You Tube, RSS, Favorites  
 Requires at least: 3.1
-Tested up to: 3.42
-Stable tag: 0.10 
+Tested up to: 3.50
+Stable tag: 0.20 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -126,10 +126,19 @@ A. In the Widget or Shortcode Designer, just double-click the desired icon to di
 
 == Changelog ==
 
+= 0.20 Make sure to deactivate and delete all prior versions! =
+* Updated the Google CDN links for jQuery UI for Wordpress 3.5 compatibility!!!
+* Fixed the email dialog in Wordpress 3.5
+* Fixed the Widget/Shortcode Designer Admin dialogs in Wordpress 3.5
+* Fixed the Widget/Shortcode Designer Admin sliders in Wordpress 3.5
+* Fixed CSS issues when used in conjunction with the iiIRe Social Icons plugin
+* Modified the Branded Leather theme
+
+
 = 0.10 =
 * Initial beta release
 
 == Upgrade Notice ==
-** Make sure to deactivate and delete all prior versions! **
+** Major upgrade for Wordpress 3.5 compatibility. Make sure to deactivate and delete all prior versions! **
 
 See our <a href="http://iireproductions.com/web/website-development/wordpress-plugins/plugins-social-lite/">iiRe Social Icons page</a> for more information.
