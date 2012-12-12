@@ -1,5 +1,5 @@
 <?php
-// Admin Social Home Landing Page - 12-07-2012
+// Admin Social Lite Home Landing Page - 12-12-2012
 
 function iire_admin_social_lite_home() {
 	global $wpdb;

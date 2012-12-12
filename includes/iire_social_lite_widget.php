@@ -1,5 +1,5 @@
 <?php
-// iiRe Social Lite Widget - 12-07-2012
+// iiRe Social Lite Widget - 12-12-2012
 class iiReSocialLite extends WP_Widget {
 
   	function iiReSocialLite()  {

@@ -1,4 +1,4 @@
-// IIRE SOCIAL SHORTCODE  - 12/07/2012 - 9:00 PM
+// IIRE SOCIAL LITE SHORTCODE  - 12/12/2012 - 9:00 PM
 
 jQuery(document).ready(function() {
 	var plugin_path =jQuery("input#plugin_path").val(); 
@@ -145,12 +145,11 @@ jQuery(document).ready(function() {
 			return;
 		}
 
-		jQuery("#editdialog").dialog( "destroy" );
 		jQuery("#editdialog").dialog({
 			resizable: false,
 			draggable: true,
 			width: 320,
-			height: 200,
+			height: 220,
 			modal: true,
     		buttons: {}			
 		});

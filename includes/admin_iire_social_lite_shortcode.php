@@ -1,5 +1,5 @@
 <?php
-// Admin Page for Social Lite Shortcode - 12-07-2012
+// Admin Page for Social Lite Shortcode - 12-12-2012
 
 function iire_admin_social_lite_shortcode() {
 	global $wpdb;
@@ -174,6 +174,14 @@ function iire_admin_social_lite_shortcode() {
 	.icon24.white_books { background-color: <?php echo $bup; ?>; background-image: url(<?php echo IIRE_SOCIAL_LITE_URL ?>themes/white_books/24_sprite.png); }
 	.icon24.wood_crates { background-color: <?php echo $bup; ?>; background-image: url(<?php echo IIRE_SOCIAL_LITE_URL ?>themes/wood_crates/24_sprite.png); }
 
+.ui-sortable .iire-facebook24 { background-position: 0px 0px; }
+.ui-sortable .iire-twitter24 { background-position: -24px 0px; }
+.ui-sortable .iire-googleplus24 { background-position: -48px 0px; }
+.ui-sortable .iire-pinterest24 { background-position: -72px 0px; }
+.ui-sortable .iire-youtube24 { background-position: -96px 0px; }
+.ui-sortable .iire-rss24 { background-position: -120px 0px; }
+.ui-sortable .iire-favorite24 { background-position: -144px 0px; }
+.ui-sortable .iire-blank24 { background-position: -168px 0px; }	
 
 	/* 32 x 32 Icons */
 	.icon32.baseballs { background-color: <?php echo $bup; ?>; background-image: url(<?php echo IIRE_SOCIAL_LITE_URL ?>themes/baseballs/32_sprite.png); }
@@ -228,6 +236,15 @@ function iire_admin_social_lite_shortcode() {
 	.icon32.wood_crates { background-color: <?php echo $bup; ?>; background-image: url(<?php echo IIRE_SOCIAL_LITE_URL ?>themes/wood_crates/32_sprite.png); }
 
 
+.ui-sortable .iire-facebook32 { background-position: 0px 0px; }
+.ui-sortable .iire-twitter32 { background-position: -32px 0px; }
+.ui-sortable .iire-googleplus32 { background-position: -64px 0px; }
+.ui-sortable .iire-pinterest32 { background-position: -96px 0px; }
+.ui-sortable .iire-youtube32 { background-position: -128px 0px; }
+.ui-sortable .iire-rss32 { background-position: -160px 0px; }
+.ui-sortable .iire-favorite32 { background-position: -192px 0px; }
+.ui-sortable .iire-blank32 { background-position: -224px 0px; }
+
 	/* 48 x 48 Icons */
 	.icon48.baseballs { background-color: <?php echo $bup; ?>; background-image: url(<?php echo IIRE_SOCIAL_LITE_URL ?>themes/baseballs/48_sprite.png); }
 	.icon48.basketballs { background-color: <?php echo $bup; ?>; background-image: url(<?php echo IIRE_SOCIAL_LITE_URL ?>themes/basketballs/48_sprite.png); }
@@ -279,6 +296,16 @@ function iire_admin_social_lite_shortcode() {
 	.icon48.water { background-color: <?php echo $bup; ?>; background-image: url(<?php echo IIRE_SOCIAL_LITE_URL ?>themes/water/48_sprite.png); }	
 	.icon48.white_books { background-color: <?php echo $bup; ?>; background-image: url(<?php echo IIRE_SOCIAL_LITE_URL ?>themes/white_books/48_sprite.png); }
 	.icon48.wood_crates { background-color: <?php echo $bup; ?>; background-image: url(<?php echo IIRE_SOCIAL_LITE_URL ?>themes/wood_crates/48_sprite.png); }
+
+
+.ui-sortable .iire-facebook48 { background-position: 0px 0px; }
+.ui-sortable .iire-twitter48 { background-position: -48px 0px; }
+.ui-sortable .iire-googleplus48 { background-position: -96px 0px; }	
+.ui-sortable .iire-pinterest48 { background-position: -144px 0px; }
+.ui-sortable .iire-youtube48 { background-position: -192px 0px; }
+.ui-sortable .iire-rss48 { background-position: -240px 0px; }
+.ui-sortable .iire-favorite48 { background-position: -288px 0px; }
+.ui-sortable .iire-blank48 { background-position: -336px 0px; }
 
 		
 	/* Icon Hover Colors */

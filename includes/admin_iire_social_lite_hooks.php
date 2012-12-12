@@ -1,5 +1,5 @@
 <?php
-// Admin Social Hooks - 12-07-2012
+// Admin Social Lite Hooks - 12-12-2012
 
 function iire_social_lite_admin_pages() {
 	add_menu_page('iiRe Social Lite', 'iiRe Social Lite ', 'administrator', 'iire_admin_social_lite_home', 'iire_admin_social_lite_home');
@@ -18,7 +18,7 @@ function iire_social_lite_admin_enable_js() {
 			if (file_exists($d)) {
 				wp_enqueue_script( 'jquery-ui', IIRE_SOCIAL_LITE_URL.'includes/jquery-ui.min.js');				
 			} else {
-				wp_enqueue_script( 'jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js');						
+				wp_enqueue_script( 'jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js');						
 			}
 		}	
     }
@@ -42,7 +42,7 @@ function iire_social_lite_admin_enable_styles() {
 			if (file_exists($d)) {
 				wp_enqueue_style( 'jquery-ui_css', IIRE_SOCIAL_LITE_URL.'includes/jquery-ui.css');				
 			} else {
-				wp_enqueue_style( 'jquery-ui_css', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css');						
+				wp_enqueue_style( 'jquery-ui_css', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css');						
 			}
 		}			
 				
