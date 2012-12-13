@@ -126,6 +126,10 @@ A. In the Widget or Shortcode Designer, just double-click the desired icon to di
 
 == Changelog ==
 
+= 0.21 Make sure to deactivate and delete all prior versions! =
+* Removal of the link to the Google CDN JQuery UI remote library
+
+
 = 0.20 Make sure to deactivate and delete all prior versions! =
 * Updated the Google CDN links for jQuery UI for Wordpress 3.5 compatibility!!!
 * Fixed the email dialog in Wordpress 3.5

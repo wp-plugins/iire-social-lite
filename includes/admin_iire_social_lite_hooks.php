@@ -15,11 +15,11 @@ function iire_social_lite_admin_enable_js() {
 		if( !wp_script_is('jquery-ui') ) { 		
 			$x = explode('/',IIRE_SOCIAL_LITE_BASENAME);
 			$d = "../".IIRE_SOCIAL_LITE_CONTENT_URL."/plugins/".$x[0]."/includes/jquery-ui.min.js";	
-			if (file_exists($d)) {
+			//if (file_exists($d)) {
 				wp_enqueue_script( 'jquery-ui', IIRE_SOCIAL_LITE_URL.'includes/jquery-ui.min.js');				
-			} else {
-				wp_enqueue_script( 'jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js');						
-			}
+			//} else {
+			//	wp_enqueue_script( 'jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js');						
+			//}
 		}	
     }
 	
@@ -41,9 +41,9 @@ function iire_social_lite_admin_enable_styles() {
 			$d = "../".IIRE_SOCIAL_LITE_CONTENT_URL."/plugins/".$x[0]."/includes/jquery-ui.css";	
 			if (file_exists($d)) {
 				wp_enqueue_style( 'jquery-ui_css', IIRE_SOCIAL_LITE_URL.'includes/jquery-ui.css');				
-			} else {
-				wp_enqueue_style( 'jquery-ui_css', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css');						
-			}
+			//} else {
+			//	wp_enqueue_style( 'jquery-ui_css', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css');						
+			//}
 		}			
 				
     }
