@@ -4,7 +4,7 @@ Donate link: http://iireproductions.com/web/website-development/wordpress-plugin
 Tags: Social Media, Icons, Facebook, Google, Pinterest, Twitter, You Tube, RSS, Favorites  
 Requires at least: 3.1
 Tested up to: 3.50
-Stable tag: 0.20 
+Stable tag: 0.21 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -130,7 +130,7 @@ A. In the Widget or Shortcode Designer, just double-click the desired icon to di
 * Removal of the link to the Google CDN JQuery UI remote library
 
 
-= 0.20 Make sure to deactivate and delete all prior versions! =
+= 0.20 =
 * Updated the Google CDN links for jQuery UI for Wordpress 3.5 compatibility!!!
 * Fixed the email dialog in Wordpress 3.5
 * Fixed the Widget/Shortcode Designer Admin dialogs in Wordpress 3.5
