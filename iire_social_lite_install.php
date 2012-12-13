@@ -2,7 +2,7 @@
 // Social Lite Installation - 12-12-2012
 
 global $iire_social_lite_version;
-$iire_social_lite_version = "0.20";
+$iire_social_lite_version = "0.21";
 
 // INSTALL/CREATE TABLES
 function iire_social_lite_install() {

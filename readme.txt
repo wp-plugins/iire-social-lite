@@ -86,13 +86,10 @@ To upload the plugin through WordPress, instead of FTP:
 
 To include the shortcode in a template:
 
-1. Copy this code into the desired location in your template
+1. Copy this code into the desired location in your template with wrapping PHP tags
 
-<?php 
-if(function_exists('iire_social_lite_theme')) { 
-iire_social_lite_theme(); 
-} 
-?>
+if(function_exists('iire_social_lite_theme')) { iire_social_lite_theme(); } 
+
 
 
 
@@ -102,7 +99,7 @@ Q. Is there any cost associated with this plugin?
 A. No! This plugin is completely free to use on as many sites as you want!
 
 Q. What are the plugin requirements?
-A. The admin section requires Jquery and Jquery UI to be enabled. These libraries will be loaded from the Google CDN if not present, then initialized on the widget and shortcode admin pages.
+A. The admin section requires Jquery and Jquery UI to be enabled.
 
 Q. Why two different admin panels for the widget and the shortcode?
 A. All settings for the widget and the shortcode are stored independently. The widget(best used in the sidebar) and the shortcode(best used on a page or post) can be designed differently, with different themes, size, icon order, etc.
