@@ -99,7 +99,7 @@ Q. Is there any cost associated with this plugin?
 A. No! This plugin is completely free to use on as many sites as you want!
 
 Q. What are the plugin requirements?
-A. The admin section requires Jquery and Jquery UI to be enabled.
+A. The admin section requires Jquery and Jquery UI to be enabled.  These are usually included with your default Wordpress installation.
 
 Q. Why two different admin panels for the widget and the shortcode?
 A. All settings for the widget and the shortcode are stored independently. The widget(best used in the sidebar) and the shortcode(best used on a page or post) can be designed differently, with different themes, size, icon order, etc.
