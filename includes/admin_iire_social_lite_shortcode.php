@@ -1,5 +1,5 @@
 <?php
-// Admin Page for Social Lite Shortcode - 12-12-2012
+// Admin Page for Social Lite Shortcode - 12-15-2012
 
 function iire_admin_social_lite_shortcode() {
 	global $wpdb;
@@ -174,14 +174,14 @@ function iire_admin_social_lite_shortcode() {
 	.icon24.white_books { background-color: <?php echo $bup; ?>; background-image: url(<?php echo IIRE_SOCIAL_LITE_URL ?>themes/white_books/24_sprite.png); }
 	.icon24.wood_crates { background-color: <?php echo $bup; ?>; background-image: url(<?php echo IIRE_SOCIAL_LITE_URL ?>themes/wood_crates/24_sprite.png); }
 
-.ui-sortable .iire-facebook24 { background-position: 0px 0px; }
-.ui-sortable .iire-twitter24 { background-position: -24px 0px; }
-.ui-sortable .iire-googleplus24 { background-position: -48px 0px; }
-.ui-sortable .iire-pinterest24 { background-position: -72px 0px; }
-.ui-sortable .iire-youtube24 { background-position: -96px 0px; }
-.ui-sortable .iire-rss24 { background-position: -120px 0px; }
-.ui-sortable .iire-favorite24 { background-position: -144px 0px; }
-.ui-sortable .iire-blank24 { background-position: -168px 0px; }	
+	.ui-sortable .iire-facebook24 { background-position: 0px 0px; }
+	.ui-sortable .iire-twitter24 { background-position: -24px 0px; }
+	.ui-sortable .iire-googleplus24 { background-position: -48px 0px; }
+	.ui-sortable .iire-pinterest24 { background-position: -72px 0px; }
+	.ui-sortable .iire-youtube24 { background-position: -96px 0px; }
+	.ui-sortable .iire-rss24 { background-position: -120px 0px; }
+	.ui-sortable .iire-favorite24 { background-position: -144px 0px; }
+	.ui-sortable .iire-blank24 { background-position: -168px 0px; }	
 
 	/* 32 x 32 Icons */
 	.icon32.baseballs { background-color: <?php echo $bup; ?>; background-image: url(<?php echo IIRE_SOCIAL_LITE_URL ?>themes/baseballs/32_sprite.png); }
@@ -872,13 +872,12 @@ function iire_admin_social_lite_shortcode() {
 <h3>Notes</h3>
 <p>The Shortcode Designer works independently!!  You can create vastly different settings for the shortcode (which is best used is a page or post) or the widget (which is best used as a sidebar widget).</p>
 
+<p>Aligning the Shortcode Container to the right will order the icons in reverse. Drag and drop the icons to the desired order.</p>
+
 <p>To include the shortcode in a template, copy this code into the desired location in your template.</p>
 <code>
 &lt;?php if(function_exists('iire_social_lite_theme')) { iire_social_lite_theme(); } ?&gt;
 </code> 
-
-
-
 
 
 <textarea id="sc_icons" name="sc_icons" cols="20" rows="3" class="h150" style="width:100%; visibility: hidden;"><?php echo stripslashes($settings['sc_icons']); ?></textarea>

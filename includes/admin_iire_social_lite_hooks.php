@@ -1,5 +1,5 @@
 <?php
-// Admin Social Lite Hooks - 12-12-2012
+// Admin Social Lite Hooks - 12-15-2012
 
 function iire_social_lite_admin_pages() {
 	add_menu_page('iiRe Social Lite', 'iiRe Social Lite ', 'administrator', 'iire_admin_social_lite_home', 'iire_admin_social_lite_home');
@@ -12,7 +12,6 @@ add_action('admin_menu', 'iire_social_lite_admin_pages');
 function iire_social_lite_admin_enable_js() {
     if (is_admin() && (($_GET['page'] == 'iire_admin_social_lite_widget') || ($_GET['page'] == 'iire_admin_social_lite_shortcode'))  ){
 		wp_enqueue_script( 'color-picker', IIRE_SOCIAL_LITE_URL.'includes/admin_colorpicker.js');
-	
 		wp_enqueue_script('jquery-ui-core');
 		wp_enqueue_script('jquery-ui-widget');
 		wp_enqueue_script('jquery-ui-mouse');	

@@ -1,5 +1,5 @@
 <?php
-// Admin Page for Social Lite Widget - 12-12-2012
+// Admin Page for Social Lite Widget - 12-15-2012
 
 function iire_admin_social_lite_widget() {
 	global $wpdb;
@@ -807,6 +807,8 @@ function iire_admin_social_lite_widget() {
 <h3>Notes</h3>
 <p>The Widget Designer works independently!!  You can create vastly different settings for the widget (which is best used as a sidebar widget) and the shortcode (which is best used is a page or post).</p>
 
+<p>Aligning the Widget Container to the right will order the icons in reverse. Drag and drop the icons to the desired order.</p>
+
 <textarea id="widget_icons" name="widget_icons" cols="20" rows="3" class="h150" style="width:100%; visibility: hidden;"><?php echo stripslashes($settings['widget_icons']); ?></textarea>
 <textarea id="widget_output" name="widget_output" cols="20" rows="3" class="h150" style="width:100%;  visibility: hidden;"><?php echo stripslashes($settings['widget_output']); ?></textarea>
 	
@@ -820,10 +822,6 @@ function iire_admin_social_lite_widget() {
 	<input type="hidden" value="" class="choose_id">
 	<p align="right"><a id="edit_close" class="button-secondary">Close</a></p>			
 </div>
-
-
-
-
 
 </form>
 

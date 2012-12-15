@@ -4,7 +4,7 @@ Donate link: http://iireproductions.com/web/website-development/wordpress-plugin
 Tags: Social Media, Icons, Facebook, Google, Pinterest, Twitter, You Tube, RSS, Favorites  
 Requires at least: 3.1
 Tested up to: 3.50
-Stable tag: 0.21 
+Stable tag: 0.22 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -95,22 +95,22 @@ if(function_exists('iire_social_lite_theme')) { iire_social_lite_theme(); }
 
 
 == Frequently Asked Questions ==
-Q. Is there any cost associated with this plugin?
+**Q. Is there any cost associated with this plugin?**
 A. No! This plugin is completely free to use on as many sites as you want!
 
-Q. What are the plugin requirements?
+**Q. What are the plugin requirements?**
 A. The admin section requires Jquery and Jquery UI to be enabled.  These are usually included with your default Wordpress installation.
 
-Q. Why two different admin panels for the widget and the shortcode?
+**Q. Why two different admin panels for the widget and the shortcode?**
 A. All settings for the widget and the shortcode are stored independently. The widget(best used in the sidebar) and the shortcode(best used on a page or post) can be designed differently, with different themes, size, icon order, etc.
 
-Q. How were the icons created?
+**Q. How were the icons created?**
 A. All icons were designed in-house at iiRe Productions using high-resolution vector images. This method helps us to produce the highest quality images.
 
-Q. Can I add additional icons?
+**Q. Can I add additional icons?**
 A. There is a "blank" icon that is a placeholder for one additional network. If you have experience editing graphics, you can add a symbol for another network or link to the icon in your selected theme. If you need addtional networks, please see our full version of this plugin <a href="http://iireproductions.com/web/website-development/wordpress-plugins/plugins-social-icons/">iiRe Social Icons</a> for more information.
 
-Q. How do I change the default links for each icon?
+**Q. How do I change the default links for each icon?**
 A. In the Widget or Shortcode Designer, just double-click the desired icon to display the title/link icon and enter the appropriate values.   
 
 
@@ -123,7 +123,16 @@ A. In the Widget or Shortcode Designer, just double-click the desired icon to di
 
 == Changelog ==
 
-= 0.21 Make sure to deactivate and delete all prior versions! =
+= 0.22 Make sure to deactivate and delete all prior versions! =
+* Fix a bug in the Widget Alignment in the Widget Designer
+* Fix a bug in the Shortcode Alignment in the Shortcode Designer
+* Updated the code for the Widget Veritcal Orientation
+* Updated the code for the Shortcode Veritcal Orientation
+* Updated the dynamic CSS alignment for the widget and shortcode outputs
+* Updated the readme.txt file
+
+
+= 0.21 =
 * Removal of the link to the Google CDN JQuery UI remote library
 
 

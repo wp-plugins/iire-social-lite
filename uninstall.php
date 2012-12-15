@@ -1,5 +1,5 @@
 <?php
-// Updated - 12/12/2012
+// Updated - 12/15/2012
 
 // DELETE TABLES ON DEACTIVATION
 function iire_social_lite_deactivate() {

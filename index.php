@@ -5,15 +5,15 @@ Plugin URI: http://iireproductions.com/web/website-development/wordpress-plugins
 Description: Add basic social media icons and links to your site with a customizable user interface. Facebook, Twitter, Google+, Pinterest, You Tube, RSS, Add to Favorites are supported.
 Author: iiRe Productions
 Author URI: http://iireproductions.com/
-Version: 0.21
+Version: 0.22
 Tags: Social Media, Icons, Facebook, Twitter, Google+, Pinterest, YouTube, RSS, Favorites
 Copyright (C) 2012 iiRe Productions
 */
 	
 // ASSIGN VERSION
 global $wpdb, $iire_social_lite_version;
-$iire_version = "0.21";
-$last_modified = "12-12-2012";
+$iire_version = "0.22";
+$last_modified = "12-15-2012";
 	
 define ('IIRE_SOCIAL_LITE_FILE', __FILE__);
 define ('IIRE_SOCIAL_LITE_BASENAME', plugin_basename(__FILE__));
@@ -243,8 +243,6 @@ function iire_social_lite_head() {
 add_action('wp_head', 'iire_social_lite_head');
 
 
-
-
 // SHORTCODE 
 function iire_social_lite() {
 	global $wpdb;
@@ -267,7 +265,6 @@ function iire_social_lite() {
 add_shortcode('iire_social_lite', 'iire_social_lite');
 
 
-
 // SHORTCODE FOR THEME 
 function iire_social_lite_theme() {
 	global $wpdb;
@@ -287,5 +284,4 @@ function iire_social_lite_theme() {
 	echo '</div>';		
 	return;	
 }
-
 ?>

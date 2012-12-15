@@ -1,4 +1,4 @@
-// IIRE SOCIAL LITE WIDGET  - 12/12/2012 - 9:00 PM
+// IIRE SOCIAL LITE WIDGET  - 12/15/2012 - 9:00 PM
 
 jQuery(document).ready(function() {
 	var plugin_path =jQuery("input#plugin_path").val(); 
@@ -736,9 +736,10 @@ jQuery(document).ready(function() {
 
 	//Widget Alignment - OK
 	jQuery('select#widget_align').bind('change', function(e) {
-		var align = jQuery(this).val();
-		jQuery(".move").removeClass("alignleft").removeClass("alignright");
-		jQuery(".move").addClass("align"+align+"")		
+		//var align = jQuery(this).val();
+		//jQuery(".move").removeClass("alignleft").removeClass("alignright");
+		//jQuery(".move").addClass("align"+align+"");
+ 		adjustWidgetContainer();		
 	});		
 
 
@@ -782,6 +783,16 @@ jQuery(document).ready(function() {
 		if (wb == '0') {
 			jQuery("div.iire_social_widget").css("border", "#AAAAAA 1px dashed");
 		}
+
+		var align = jQuery("select#widget_align").val();
+		if (align == 'right' && ot == 'horizontal') {	
+			jQuery(".move").removeClass("alignleft");
+			jQuery(".move").addClass("alignright");
+		} else {
+			jQuery(".move").removeClass("alignright");
+			jQuery(".move").addClass("alignleft");					
+		}
+
 
 		jQuery("li.hidden").hide();
 		jQuery("div.update-nag").hide();	
